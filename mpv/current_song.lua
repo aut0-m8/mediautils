@@ -1,3 +1,5 @@
+-- this is useful for displaying the current song in obs if all your music is stored locally.
+
 function write_current_song()
     local filename = mp.get_property("filename")
     if filename ~= nil then
